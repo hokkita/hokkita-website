@@ -9,7 +9,7 @@
                         <img class="max-h-[128px]" src="@/assets/img/hk-logo.png" alt="Small Empire Logo">
                         <h1 class="font-sui text-h2 md:text-h1 uppercase">We're Coming Soon</h1>
                         <div class="text-lg md:text-xl">
-                            <div>We are working very hard on the new version of our website.</div>
+                            <div>We are working very hard on the new version of our website!</div>
                             <div>Thank you for your patience and stay tuned!</div>
                         </div>
                         <!-- <div class="flex flex-col items-center justify-center gap-0.5">
