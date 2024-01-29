@@ -1,58 +1,50 @@
-# HokKita Website
+# HokKita Corporate Website
 
-Static Corporate Website for HokKita.<br>
-This project created using [Jekyll](https://jekyllrb.com/) powered by [RubyGems](https://rubygems.org/).
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Prerequisites
 
-Jekyll requires the following:
+## Recommended IDE Setup
 
-* Ruby version 2.5.0 or higher
-* RubyGems
-* GCC and Make
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
 
-See [Requirements](https://jekyllrb.com/docs/installation/#requirements) for guides and details.
+## Customize configuration
 
-## Instructions
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-1. Install all [prerequisites](https://jekyllrb.com/docs/installation/).
+## Clone repository
 
-2. Install the jekyll and bundler [gems](https://jekyllrb.com/docs/ruby-101/#gems).
-
-```sh
-gem install jekyll bundler
-```
-
-3. Clone the repository from GitHub
+Clone the repository from GitHub
 
 ```sh
 git clone https://github.com/hokkita/hokkita-website.git
 ```
 
-4. Change into your project directory.
+Go to your project directory
 
 ```sh
 cd hokkita-website
 ```
 
-5. Build the site and make it available on a local server.
+## Project Setup
 
 ```sh
-bundle exec jekyll serve
+npm install
 ```
 
-> If you are using Ruby version 3.0.0 or higher, step 5 may fail. You may fix it by adding `webrick` to your dependencies: 
->> ```sh
->> bundle add webrick
->> ```
+### Compile and Hot-Reload for Front-End Preview
 
-6. Browse to [http://localhost:4000](http://localhost:4000/)
+```sh
+npm run preview
+```
 
-> Pass the `--livereload` option to `serve` to automatically refresh the page with each change you make to the source files: 
->> ```sh
->> bundle exec jekyll serve --livereload
->> ```
+### Compile and Hot-Reload for Development
 
-If you encounter any errors during this process, check that you have installed all the prerequisites in [Requirements](https://jekyllrb.com/docs/installation/#requirements). If you still have issues, see [Troubleshooting](https://jekyllrb.com/docs/troubleshooting/#configuration-problems).
+```sh
+npm run dev
+```
 
-> Installation varies based on your operating system. See [Jekyll guides](https://jekyllrb.com/docs/installation/#guides) for OS-specific instructions.
+### Compile and Minify for Production
+
+```sh
+npm run build
+```

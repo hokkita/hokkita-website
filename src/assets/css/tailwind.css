@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Sui Generis";
+    src: 
+        url("../fonts/sui-generis/Sui-Generis-Bold-Italic.ttf"),
+        url("../fonts/sui-generis/Sui-Generis-Bold.ttf"),
+        url("../fonts/sui-generis/Sui-Generis-Italic.ttf"),
+        url("../fonts/sui-generis/Sui-Generis-Regular.ttf"),;
+}
