@@ -6,7 +6,7 @@ import { fileURLToPath, URL } from 'url'
 export default defineConfig({
   plugins: [vue()],
   // if got CNAME or deploying to https://<USERNAME>.github.io/
-  // base: '/',
+  base: './',
   // if deploying to https://<USERNAME>.github.io/<REPO>/
   // base: '/<REPO_NAME>/',
   // base: process.env.NODE_ENV === 'production'
