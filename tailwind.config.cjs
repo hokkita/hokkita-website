@@ -132,12 +132,6 @@ module.exports = {
       "label-micro": ["0.6875rem","1.03125rem"],
       "label-nano": ["0.625rem","0.9375rem"],
       "label-caption": ["0.5rem","0.75rem"],
-
-    },
-    height: {
-      1: "1rem",
-      screen: "100vh",
-      full: "100%",
     },
     spacing: {
       0: "0",
@@ -145,10 +139,17 @@ module.exports = {
       0.5: "0.5rem",
       0.75: "0.75rem",
       1: "1rem",
+      1.5: "1.5rem",
       2: "2rem",
       3: "3rem",
     },
     extend: {
+      height: {
+        'banner': '400px',
+      },
+      width: {
+        'card': '300px',
+      },
       maxWidth : {
         'container': '1000px',
       },
