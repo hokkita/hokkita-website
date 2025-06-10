@@ -4,7 +4,7 @@
 
             <section class="w-full max-w-container mx-auto px-1 py-2">
                 <div 
-                class="w-full h-banner flex flex-col items-center justify-center bg-local bg-center bg-cover rounded-lg text-text-low"
+                class="w-full h-hero-banner flex flex-col items-center justify-center bg-local bg-center bg-cover rounded-lg text-text-low"
                 :style="{ backgroundImage: `url(${drawBridge})` }">
                     <div class="text-center font-bebas text-display-xl">HokKita Sdn Bhd</div>
                     <div class="text-center text-h2 italic font-thin">Your needs, our priority.</div>

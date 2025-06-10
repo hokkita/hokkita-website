@@ -1,6 +1,6 @@
 <template>
     <div 
-    class="w-full h-banner flex flex-col gap-2 items-center justify-center bg-local bg-center bg-cover rounded-lg"
+    class="w-full h-hero-banner flex flex-col gap-2 items-center justify-center bg-local bg-center bg-cover rounded-lg"
     :style="{ backgroundImage: `url(${callCenter})` }">
         <div class="flex flex-col items-center p-1 text-text-low">
             <div class="text-center font-bebas text-display-xl">Let us help you</div>

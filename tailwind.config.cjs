@@ -145,7 +145,8 @@ module.exports = {
     },
     extend: {
       height: {
-        'banner': '400px',
+        'banner': '300px',
+        'hero-banner': '400px',
       },
       width: {
         'card': '300px',
