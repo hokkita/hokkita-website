@@ -1,6 +1,9 @@
 import { createWebHistory, createRouter } from 'vue-router';
 
 import Home from '@/pages/Home.vue';
+import AboutUs from '@/pages/AboutUs.vue';
+import OurServices from '@/pages/OurServices.vue';
+import ContactUs from '@/pages/ContactUs.vue';
 
 import PageNotFound from '@/pages/PageNotFound.vue';
 
@@ -16,6 +19,21 @@ const router = createRouter({
             path: '/',
             component: Home,
             meta: { title: 'HokKita Solutions'}
+        },
+        {
+            path: '/about-us',
+            component: AboutUs,
+            meta: { title: 'About Us | HokKita Solutions'}
+        },
+        {
+            path: '/our-services',
+            component: OurServices,
+            meta: { title: 'Our Services | HokKita Solutions'}
+        },
+        {
+            path: '/contact-us',
+            component: ContactUs,
+            meta: { title: 'Contact Us | HokKita Solutions'}
         },
         { 
             path: '/:pathMatch(.*)*', 
