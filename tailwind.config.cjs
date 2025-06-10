@@ -13,10 +13,8 @@ module.exports = {
       current: 'currentColor',
       black: colors.black,
       white: colors.white,
-      'brand':{
-        'primary': '#ED1519',
-        'secondary': '#FFF100',
-      },
+      'primary': '#ED1519',
+      'secondary': '#FFF100',
       'text':{
         'high': '#262626',
         'medium': '#737373',
@@ -116,33 +114,28 @@ module.exports = {
       },
     },
     fontFamily:{
-      'sui': ['"Sui Generis"', 'sans-serif'],
+      'bebas': ['"Bebas Neue"', 'sans-serif'],
     },
     fontSize: {
-      base: ["1rem", "1rem"],
-      "title": ["8rem", "8rem"],
-      // "h1": ["3rem", "3rem"],
-      // "h2": ["2rem", "2rem"],
-
-      //new starts here
-      "display": {
-        "xl": ["3.75rem","5.625rem"],
-        "lg": ["2.25rem","3.375rem"],
-        "md": ["1.875rem","2.8125rem"],
-        "xl": ["1.25rem","1.875rem"],
-        "xs": ["1rem","1.5rem"],
-      },
+      "display-xl": ["3.75rem","5.625rem"],
+      "display-lg": ["2.25rem","3.375rem"],
+      "display-md": ["1.875rem","2.8125rem"],
+      "display-sm": ["1.25rem","1.875rem"],
+      "display-xs": ["1rem","1.5rem"],
       "h1": ["2.5rem","3.75rem"],
       "h2": ["2rem","3rem"],
       "h3": ["1.5rem","2.25rem"],
       "lg": ["1.25rem","1.875rem"],
       "md": ["1rem","1.5rem"],
       "sm": ["0.75rem","1.125rem"],
+      "label-mini": ["0.75rem","1.125rem"],
+      "label-micro": ["0.6875rem","1.03125rem"],
+      "label-nano": ["0.625rem","0.9375rem"],
+      "label-caption": ["0.5rem","0.75rem"],
 
     },
     height: {
       1: "1rem",
-      "nav": "4rem",
       screen: "100vh",
       full: "100%",
     },
@@ -154,9 +147,12 @@ module.exports = {
       1: "1rem",
       2: "2rem",
       3: "3rem",
-      "nav": "4rem",
     },
-    extend: {},
+    extend: {
+      maxWidth : {
+        'container': '1000px',
+      },
+    },
   },
   variants: {},
   plugins: [],
