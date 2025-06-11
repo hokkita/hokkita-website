@@ -7,3 +7,7 @@
     font-family: "Bebas Neue";
     src: url("../fonts/bebas-neue/Bebas-Neue-Regular.ttf") format("truetype");
 }
+
+html {
+  scroll-behavior: smooth;
+}

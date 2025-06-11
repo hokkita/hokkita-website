@@ -42,8 +42,9 @@ const router = createRouter({
             meta: { title: '404 - Page not found | HokKita Solutions'}
         },
     ],
-    scrollBehaviour(to, from, savedPosition) {
-        return { top: 0 } //always scroll to top
+    scrollBehavior(to, from, savedPosition) {
+        // always scroll to top
+        return { top: 0 }
     },
 });
 
