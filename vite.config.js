@@ -1,6 +1,9 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'url'
+import { webcrypto } from 'crypto' // Node's crypto
+
+globalThis.crypto = webcrypto // Polyfill for build
 
 // https://vitejs.dev/config/
 export default defineConfig({

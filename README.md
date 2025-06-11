@@ -30,7 +30,7 @@ cd hokkita-website
 ```sh
 npm install
 ```
-> Works perfectly with Node v16.20.0
+> Works perfectly with Node v18.16.0
 
 ### Compile and Hot-Reload for Front-End Preview
 
